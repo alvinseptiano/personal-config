@@ -1,14 +1,14 @@
 # ...
 window:
   dimensions:
-    columns: 75
+    columns: 80
     lines: 25
   position:
-    x: 300
+    x: 250
     y: 100
   padding:
-    x: 6
-    y: 6
+    x: 5
+    y: 5
   # Cursor style
   #
   # Values for `style`:
@@ -16,7 +16,7 @@ window:
   #   - _ Underline
   #   - | Beam
 cursor:
-    style: Block
+    style: Beam
 
   #
   # Colors which should be used to draw the terminal cursor. If these are unset,
@@ -96,9 +96,10 @@ colors:
 font:
   # The normal (roman) font face to use.
   normal:
-    family: Jetbrains mono
+    family: jetbrains mono
     # Style can be specified to pick a specific face.
     style: mono
-background_opacity: 0.95	
+  size: 12
+background_opacity: 1.0
 # Visual Bell
 # ...
