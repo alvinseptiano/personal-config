@@ -42,6 +42,3 @@ set background=dark
 colorscheme dracula
 highlight Normal ctermbg=NONE	
 highlight nonText ctermbg=NONE
-
-
-source /home/alvin/repos/lsp-examples/vimrc.generated
